@@ -70,7 +70,7 @@ const Login = () => {
           />
         </div>
         <hr />
-        <Link to='/phonesignup'>
+        <Link to='/phonesignup' style={{ textDecoration: 'none' }}>
         <div className="d-grid gap-2 mt-3">
             <Button variant="success" type="Submit">
               Sign in with phone 
@@ -79,7 +79,7 @@ const Login = () => {
           </Link>
       </div>
       <div className="p-4 box mt-3 text-center">
-        Don't have an account? <Link to="/signup">Sign up</Link>
+        Don't have an account? <Link to="/signup" style={{ textDecoration: 'none' }}>Sign up</Link>
       </div>
     </>
   );
