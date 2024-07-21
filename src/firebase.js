@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_bUQ1Dv_3ihLuYP-FOVv2eXDqCxTxBKQ",
-  authDomain: "testing-c50d1.firebaseapp.com",
-  projectId: "testing-c50d1",
-  storageBucket: "testing-c50d1.appspot.com",
-  messagingSenderId: "237706564533",
-  appId: "1:237706564533:web:fd9f22929b5df77b813ffc"
+  apiKey: "AIzaSyAOWrvXxEOcEdxc5GLCXCLU8gN6f7ihQ8Q",
+  authDomain: "movie-users-33bc2.firebaseapp.com",
+  projectId: "movie-users-33bc2",
+  storageBucket: "movie-users-33bc2.appspot.com",
+  messagingSenderId: "905846850164",
+  appId: "1:905846850164:web:3d7694a926af7487c74721"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
